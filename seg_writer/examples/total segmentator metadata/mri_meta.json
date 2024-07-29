@@ -1,0 +1,1248 @@
+{
+    "ContentCreatorName": "MARCOPACS",
+    "ClinicalTrialSeriesID": "Session1",
+    "ClinicalTrialTimePointID": "1",
+    "SeriesDescription": "Segmentation",
+    "SeriesNumber": "",
+    "InstanceNumber": "",
+    "segmentAttributes": [
+        [
+            {
+                "labelID": 1,
+                "SegmentDescription": "spleen",
+                "SegmentLabel": "spleen",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    31,
+                    119,
+                    180
+                ]
+            },
+            {
+                "labelID": 2,
+                "SegmentDescription": "kidney_right",
+                "SegmentLabel": "kidney_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    174,
+                    199,
+                    232
+                ]
+            },
+            {
+                "labelID": 3,
+                "SegmentDescription": "kidney_left",
+                "SegmentLabel": "kidney_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    127,
+                    14
+                ]
+            },
+            {
+                "labelID": 4,
+                "SegmentDescription": "gallbladder",
+                "SegmentLabel": "gallbladder",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    187,
+                    120
+                ]
+            },
+            {
+                "labelID": 5,
+                "SegmentDescription": "liver",
+                "SegmentLabel": "liver",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    44,
+                    160,
+                    44
+                ]
+            },
+            {
+                "labelID": 6,
+                "SegmentDescription": "stomach",
+                "SegmentLabel": "stomach",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    152,
+                    223,
+                    138
+                ]
+            },
+            {
+                "labelID": 7,
+                "SegmentDescription": "pancreas",
+                "SegmentLabel": "pancreas",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    214,
+                    39,
+                    40
+                ]
+            },
+            {
+                "labelID": 8,
+                "SegmentDescription": "adrenal_gland_right",
+                "SegmentLabel": "adrenal_gland_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    152,
+                    150
+                ]
+            },
+            {
+                "labelID": 9,
+                "SegmentDescription": "adrenal_gland_left",
+                "SegmentLabel": "adrenal_gland_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    148,
+                    103,
+                    189
+                ]
+            },
+            {
+                "labelID": 10,
+                "SegmentDescription": "lung_left",
+                "SegmentLabel": "lung_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    197,
+                    176,
+                    213
+                ]
+            },
+            {
+                "labelID": 11,
+                "SegmentDescription": "lung_right",
+                "SegmentLabel": "lung_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    140,
+                    86,
+                    75
+                ]
+            },
+            {
+                "labelID": 12,
+                "SegmentDescription": "esophagus",
+                "SegmentLabel": "esophagus",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    196,
+                    156,
+                    148
+                ]
+            },
+            {
+                "labelID": 13,
+                "SegmentDescription": "small_bowel",
+                "SegmentLabel": "small_bowel",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    227,
+                    119,
+                    194
+                ]
+            },
+            {
+                "labelID": 14,
+                "SegmentDescription": "duodenum",
+                "SegmentLabel": "duodenum",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    247,
+                    182,
+                    210
+                ]
+            },
+            {
+                "labelID": 15,
+                "SegmentDescription": "colon",
+                "SegmentLabel": "colon",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    127,
+                    127,
+                    127
+                ]
+            },
+            {
+                "labelID": 16,
+                "SegmentDescription": "urinary_bladder",
+                "SegmentLabel": "urinary_bladder",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    199,
+                    199,
+                    199
+                ]
+            },
+            {
+                "labelID": 17,
+                "SegmentDescription": "prostate",
+                "SegmentLabel": "prostate",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    188,
+                    189,
+                    34
+                ]
+            },
+            {
+                "labelID": 18,
+                "SegmentDescription": "sacrum",
+                "SegmentLabel": "sacrum",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    219,
+                    219,
+                    141
+                ]
+            },
+            {
+                "labelID": 19,
+                "SegmentDescription": "vertebrae",
+                "SegmentLabel": "vertebrae",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    23,
+                    190,
+                    207
+                ]
+            },
+            {
+                "labelID": 20,
+                "SegmentDescription": "intervertebral_discs",
+                "SegmentLabel": "intervertebral_discs",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    158,
+                    218,
+                    229
+                ]
+            },
+            {
+                "labelID": 21,
+                "SegmentDescription": "spinal_cord",
+                "SegmentLabel": "spinal_cord",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    31,
+                    119,
+                    180
+                ]
+            },
+            {
+                "labelID": 22,
+                "SegmentDescription": "heart",
+                "SegmentLabel": "heart",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    174,
+                    199,
+                    232
+                ]
+            },
+            {
+                "labelID": 23,
+                "SegmentDescription": "aorta",
+                "SegmentLabel": "aorta",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    127,
+                    14
+                ]
+            },
+            {
+                "labelID": 24,
+                "SegmentDescription": "inferior_vena_cava",
+                "SegmentLabel": "inferior_vena_cava",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    187,
+                    120
+                ]
+            },
+            {
+                "labelID": 25,
+                "SegmentDescription": "portal_vein_and_splenic_vein",
+                "SegmentLabel": "portal_vein_and_splenic_vein",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    44,
+                    160,
+                    44
+                ]
+            },
+            {
+                "labelID": 26,
+                "SegmentDescription": "iliac_artery_left",
+                "SegmentLabel": "iliac_artery_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    152,
+                    223,
+                    138
+                ]
+            },
+            {
+                "labelID": 27,
+                "SegmentDescription": "iliac_artery_right",
+                "SegmentLabel": "iliac_artery_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    214,
+                    39,
+                    40
+                ]
+            },
+            {
+                "labelID": 28,
+                "SegmentDescription": "iliac_vena_left",
+                "SegmentLabel": "iliac_vena_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    152,
+                    150
+                ]
+            },
+            {
+                "labelID": 29,
+                "SegmentDescription": "iliac_vena_right",
+                "SegmentLabel": "iliac_vena_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    148,
+                    103,
+                    189
+                ]
+            },
+            {
+                "labelID": 30,
+                "SegmentDescription": "humerus_left",
+                "SegmentLabel": "humerus_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    197,
+                    176,
+                    213
+                ]
+            },
+            {
+                "labelID": 31,
+                "SegmentDescription": "humerus_right",
+                "SegmentLabel": "humerus_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    140,
+                    86,
+                    75
+                ]
+            },
+            {
+                "labelID": 32,
+                "SegmentDescription": "fibula",
+                "SegmentLabel": "fibula",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    196,
+                    156,
+                    148
+                ]
+            },
+            {
+                "labelID": 33,
+                "SegmentDescription": "tibia",
+                "SegmentLabel": "tibia",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    227,
+                    119,
+                    194
+                ]
+            },
+            {
+                "labelID": 34,
+                "SegmentDescription": "femur_left",
+                "SegmentLabel": "femur_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    247,
+                    182,
+                    210
+                ]
+            },
+            {
+                "labelID": 35,
+                "SegmentDescription": "femur_right",
+                "SegmentLabel": "femur_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    127,
+                    127,
+                    127
+                ]
+            },
+            {
+                "labelID": 36,
+                "SegmentDescription": "hip_left",
+                "SegmentLabel": "hip_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    199,
+                    199,
+                    199
+                ]
+            },
+            {
+                "labelID": 37,
+                "SegmentDescription": "hip_right",
+                "SegmentLabel": "hip_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    188,
+                    189,
+                    34
+                ]
+            },
+            {
+                "labelID": 38,
+                "SegmentDescription": "gluteus_maximus_left",
+                "SegmentLabel": "gluteus_maximus_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    219,
+                    219,
+                    141
+                ]
+            },
+            {
+                "labelID": 39,
+                "SegmentDescription": "gluteus_maximus_right",
+                "SegmentLabel": "gluteus_maximus_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    23,
+                    190,
+                    207
+                ]
+            },
+            {
+                "labelID": 40,
+                "SegmentDescription": "gluteus_medius_left",
+                "SegmentLabel": "gluteus_medius_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    158,
+                    218,
+                    229
+                ]
+            },
+            {
+                "labelID": 41,
+                "SegmentDescription": "gluteus_medius_right",
+                "SegmentLabel": "gluteus_medius_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    31,
+                    119,
+                    180
+                ]
+            },
+            {
+                "labelID": 42,
+                "SegmentDescription": "gluteus_minimus_left",
+                "SegmentLabel": "gluteus_minimus_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    174,
+                    199,
+                    232
+                ]
+            },
+            {
+                "labelID": 43,
+                "SegmentDescription": "gluteus_minimus_right",
+                "SegmentLabel": "gluteus_minimus_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    127,
+                    14
+                ]
+            },
+            {
+                "labelID": 44,
+                "SegmentDescription": "autochthon_left",
+                "SegmentLabel": "autochthon_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    187,
+                    120
+                ]
+            },
+            {
+                "labelID": 45,
+                "SegmentDescription": "autochthon_right",
+                "SegmentLabel": "autochthon_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    44,
+                    160,
+                    44
+                ]
+            },
+            {
+                "labelID": 46,
+                "SegmentDescription": "iliopsoas_left",
+                "SegmentLabel": "iliopsoas_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    152,
+                    223,
+                    138
+                ]
+            },
+            {
+                "labelID": 47,
+                "SegmentDescription": "iliopsoas_right",
+                "SegmentLabel": "iliopsoas_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    214,
+                    39,
+                    40
+                ]
+            },
+            {
+                "labelID": 48,
+                "SegmentDescription": "quadriceps_femoris_left",
+                "SegmentLabel": "quadriceps_femoris_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    255,
+                    152,
+                    150
+                ]
+            },
+            {
+                "labelID": 49,
+                "SegmentDescription": "quadriceps_femoris_right",
+                "SegmentLabel": "quadriceps_femoris_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    148,
+                    103,
+                    189
+                ]
+            },
+            {
+                "labelID": 50,
+                "SegmentDescription": "thigh_medial_compartment_left",
+                "SegmentLabel": "thigh_medial_compartment_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    197,
+                    176,
+                    213
+                ]
+            },
+            {
+                "labelID": 51,
+                "SegmentDescription": "thigh_medial_compartment_right",
+                "SegmentLabel": "thigh_medial_compartment_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    140,
+                    86,
+                    75
+                ]
+            },
+            {
+                "labelID": 52,
+                "SegmentDescription": "thigh_posterior_compartment_left",
+                "SegmentLabel": "thigh_posterior_compartment_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    196,
+                    156,
+                    148
+                ]
+            },
+            {
+                "labelID": 53,
+                "SegmentDescription": "thigh_posterior_compartment_right",
+                "SegmentLabel": "thigh_posterior_compartment_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    227,
+                    119,
+                    194
+                ]
+            },
+            {
+                "labelID": 54,
+                "SegmentDescription": "sartorius_left",
+                "SegmentLabel": "sartorius_left",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    247,
+                    182,
+                    210
+                ]
+            },
+            {
+                "labelID": 55,
+                "SegmentDescription": "sartorius_right",
+                "SegmentLabel": "sartorius_right",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    127,
+                    127,
+                    127
+                ]
+            },
+            {
+                "labelID": 56,
+                "SegmentDescription": "brain",
+                "SegmentLabel": "brain",
+                "SegmentAlgorithmType": "AUTOMATIC",
+                "SegmentAlgorithmName": "Automatic",
+                "SegmentedPropertyCategoryCodeSequence": {
+                    "CodeValue": "85756007",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Tissue"
+                },
+                "SegmentedPropertyTypeCodeSequence": {
+                    "CodeValue": "113343008",
+                    "CodingSchemeDesignator": "SCT",
+                    "CodeMeaning": "Organ"
+                },
+                "recommendedDisplayRGBValue": [
+                    199,
+                    199,
+                    199
+                ]
+            }
+        ]
+    ],
+    "ContentLabel": "SEGMENTATION",
+    "ContentDescription": "Image segmentation",
+    "ClinicalTrialCoordinatingCenterName": "dcmqi",
+    "BodyPartExamined": ""
+}

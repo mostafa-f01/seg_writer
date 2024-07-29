@@ -1,0 +1,52 @@
+{
+   "ContentCreatorName": "Name of the creator",
+   "ClinicalTrialSeriesID": "ID of the clinical trial series",
+   "ClinicalTrialTimePointID": "Time point ID of the clinical trial",
+   "SeriesDescription": "Description of the series",
+   "SeriesNumber": "Number identifying the series",
+   "InstanceNumber": "Instance number within the series",
+   "segmentAttributes": [
+     [
+       {
+         "labelID": 1,
+         "SegmentDescription": "Description of segment 1",
+         "SegmentLabel": "Label for segment 1",
+         "SegmentAlgorithmType": "Algorithm type for segment 1",
+         "SegmentAlgorithmName": "Algorithm name for segment 1",
+         "SegmentedPropertyCategoryCodeSequence": {
+           "CodeValue": "Code for anatomical structure",
+           "CodingSchemeDesignator": "Coding scheme designator",
+           "CodeMeaning": "Meaning of the code"
+         },
+         "SegmentedPropertyTypeCodeSequence": {
+           "CodeValue": "Code for property type",
+           "CodingSchemeDesignator": "Coding scheme designator",
+           "CodeMeaning": "Meaning of the code"
+         },
+         "recommendedDisplayRGBValue": [31, 119, 180]
+       },
+       {
+         "labelID": 2,
+         "SegmentDescription": "Description of segment 2",
+         "SegmentLabel": "Label for segment 2",
+         "SegmentAlgorithmType": "Algorithm type for segment 2",
+         "SegmentAlgorithmName": "Algorithm name for segment 2",
+         "SegmentedPropertyCategoryCodeSequence": {
+           "CodeValue": "Code for anatomical structure",
+           "CodingSchemeDesignator": "Coding scheme designator",
+           "CodeMeaning": "Meaning of the code"
+         },
+         "SegmentedPropertyTypeCodeSequence": {
+           "CodeValue": "Code for property type",
+           "CodingSchemeDesignator": "Coding scheme designator",
+           "CodeMeaning": "Meaning of the code"
+         },
+         "recommendedDisplayRGBValue": [174, 199, 232]
+       }
+     ]
+   ],
+   "ContentLabel": "Label for the content",
+   "ContentDescription": "Description of the content",
+   "ClinicalTrialCoordinatingCenterName": "Name of the coordinating center",
+   "BodyPartExamined": "Body part that was examined"
+ }
