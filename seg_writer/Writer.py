@@ -47,7 +47,7 @@ class Writer:
                 scheme_designator=desc['SegmentedPropertyTypeCodeSequence']['CodingSchemeDesignator'],
                 meaning=desc['SegmentedPropertyTypeCodeSequence']['CodeMeaning']
             )
-            # Create the SegmentDescription object
+            # Create the SegmentDescription objects
             segment_description = hd.seg.SegmentDescription(
                 segment_number=desc['labelID'],
                 segment_label=desc['SegmentLabel'],
@@ -57,7 +57,7 @@ class Writer:
                 algorithm_identification=AlgorithmIdentificationSequence(
                     name='AI',  
                     version='',  
-                    family=codes.cid7162.ArtificialIntelligence 
+                    family=codes.cid7162.ArtificialIntelligence
                 )
             )
             filtered_descriptions.append(segment_description)
@@ -103,7 +103,7 @@ class Writer:
         dicom_datasets = self._normalize_source_images(dicom_series_path)
         
         # Match the shape of segmentation and source dicom files
-        pixel_array = match_shape_segmentation_and_dicom(pixel_array,dicom_series_path,dicom_datasets)
+        pixel_array = reorient_pixel_array(nifti_file_path,dicom_series_path)
 
         # Read the metadata and filter the segment descriptions
         #metadata = self.read_metadata(metadata_file_path)
@@ -119,7 +119,7 @@ class Writer:
             pixel_array=pixel_array,
             segmentation_type=hd.seg.SegmentationTypeValues.BINARY,
             segment_descriptions=segment_descriptions,
-            series_instance_uid=hd.UID(),
+            series_instance_uid=dicom_datasets[0].SeriesInstanceUID,
             series_number=dicom_datasets[0].SeriesNumber,
             sop_instance_uid=seg_instance_uid,
             instance_number=1,
@@ -133,6 +133,11 @@ class Writer:
         # Save the DICOM SEG file
         os.makedirs(output_path, exist_ok=True)
         output_file_path = os.path.join(output_path, f"SR{dicom_datasets[0].SeriesNumber}"+"_segmentation_temp.dcm")
+
+        metadata = self.read_metadata(metadata_file_path)
+        segment_attributes = [item for sublist in metadata['segmentAttributes'] for item in sublist]
+        seg = add_color(segment_attributes,seg)
+
         seg.save_as(str(output_file_path))
 
         # Call deflated method for compression
@@ -149,6 +154,9 @@ class Writer:
         del segment_descriptions
         gc.collect()
 
+        metadata = self.read_metadata(metadata_file_path)
+        segment_attributes = [item for sublist in metadata['segmentAttributes'] for item in sublist]
+
         return compressed_file
 
     def from_array(self, pixel_array, dicom_series_path, metadata_file_path, output_path):
@@ -163,7 +171,7 @@ class Writer:
         dicom_datasets = self._normalize_source_images(dicom_series_path)
 
         # Match the shape of segmentation and source dicom files
-        match_shape_segmentation_and_dicom(pixel_array,dicom_series_path,dicom_datasets)
+        pixel_array = match_shape_segmentation_and_dicom(pixel_array,dicom_series_path,dicom_datasets)
 
         # Make segmentation descriptions
         segment_descriptions = self.filter_segment_descriptions(metadata_file_path)
@@ -175,7 +183,7 @@ class Writer:
             pixel_array=pixel_array,
             segmentation_type=hd.seg.SegmentationTypeValues.BINARY,
             segment_descriptions=segment_descriptions,
-            series_instance_uid=hd.UID(),
+            series_instance_uid=dicom_datasets[0].SeriesInstanceUID,
             series_number=dicom_datasets[0].SeriesNumber,
             sop_instance_uid=seg_instance_uid,
             instance_number=1,
@@ -189,6 +197,11 @@ class Writer:
         # Save the DICOM SEG file
         os.makedirs(output_path, exist_ok=True)
         output_file_path = os.path.join(output_path, f"SR{dicom_datasets[0].SeriesNumber}"+"_segmentation_temp.dcm")
+
+        metadata = self.read_metadata(metadata_file_path)
+        segment_attributes = [item for sublist in metadata['segmentAttributes'] for item in sublist]
+        seg = add_color(segment_attributes,seg)
+        
         seg.save_as(str(output_file_path))
 
         # Call deflated method for compression

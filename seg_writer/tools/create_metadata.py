@@ -119,7 +119,7 @@ def get_segment(label, description, color):
             "CodeMeaning": "",
         },
         # Color to display
-        "recommendedDisplayRGBValue": color,
+        "RecommendedDisplayCIELabValue": color,
     }
 
 def create_metadata(segmentation,csv_path,output_path):

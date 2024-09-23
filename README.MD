@@ -1,6 +1,6 @@
 # DICOM Segmentation Writer
 
-This package is implemented to create multiframe DICOM SEG (segmentation) files from NIfTI files or numpy arrays. The primary class in this package is `Writer`, which contains two main functions for creating DICOM SEG files. Additionally, there is a `generate_metadata.py` script for generating a metadata JSON file required by the main module.The seg_writer library leverages pydicom and highdicom for this conversion.
+This package is implemented to create multiframe DICOM SEG (segmentation) files from NIfTI files or numpy arrays. The primary class in this package is `Writer`, which contains two main functions for creating DICOM SEG files. Additionally, there is a `generate_metadata.py` script for generating a metadata JSON file required by the main module.
 
 # Class: `Writer`
 

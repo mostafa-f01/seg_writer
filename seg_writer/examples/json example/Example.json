@@ -23,7 +23,7 @@
            "CodingSchemeDesignator": "Coding scheme designator",
            "CodeMeaning": "Meaning of the code"
          },
-         "recommendedDisplayRGBValue": [31, 119, 180]
+         "RecommendedDisplayCIELabValue": [31, 119, 180]
        },
        {
          "labelID": 2,
@@ -41,7 +41,7 @@
            "CodingSchemeDesignator": "Coding scheme designator",
            "CodeMeaning": "Meaning of the code"
          },
-         "recommendedDisplayRGBValue": [174, 199, 232]
+         "RecommendedDisplayCIELabValue": [174, 199, 232]
        }
      ]
    ],

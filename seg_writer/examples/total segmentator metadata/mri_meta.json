@@ -23,7 +23,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     31,
                     119,
                     180
@@ -45,7 +45,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     174,
                     199,
                     232
@@ -67,7 +67,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     127,
                     14
@@ -89,7 +89,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     187,
                     120
@@ -111,7 +111,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     44,
                     160,
                     44
@@ -133,7 +133,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     152,
                     223,
                     138
@@ -155,7 +155,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     214,
                     39,
                     40
@@ -177,7 +177,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     152,
                     150
@@ -199,7 +199,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     148,
                     103,
                     189
@@ -221,7 +221,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     197,
                     176,
                     213
@@ -243,7 +243,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     140,
                     86,
                     75
@@ -265,7 +265,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     196,
                     156,
                     148
@@ -287,7 +287,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     227,
                     119,
                     194
@@ -309,7 +309,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     247,
                     182,
                     210
@@ -331,7 +331,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     127,
                     127,
                     127
@@ -353,7 +353,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     199,
                     199,
                     199
@@ -375,7 +375,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     188,
                     189,
                     34
@@ -397,7 +397,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     219,
                     219,
                     141
@@ -419,7 +419,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     23,
                     190,
                     207
@@ -441,7 +441,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     158,
                     218,
                     229
@@ -463,7 +463,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     31,
                     119,
                     180
@@ -485,7 +485,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     174,
                     199,
                     232
@@ -507,7 +507,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     127,
                     14
@@ -529,7 +529,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     187,
                     120
@@ -551,7 +551,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     44,
                     160,
                     44
@@ -573,7 +573,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     152,
                     223,
                     138
@@ -595,7 +595,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     214,
                     39,
                     40
@@ -617,7 +617,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     152,
                     150
@@ -639,7 +639,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     148,
                     103,
                     189
@@ -661,7 +661,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     197,
                     176,
                     213
@@ -683,7 +683,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     140,
                     86,
                     75
@@ -705,7 +705,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     196,
                     156,
                     148
@@ -727,7 +727,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     227,
                     119,
                     194
@@ -749,7 +749,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     247,
                     182,
                     210
@@ -771,7 +771,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     127,
                     127,
                     127
@@ -793,7 +793,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     199,
                     199,
                     199
@@ -815,7 +815,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     188,
                     189,
                     34
@@ -837,7 +837,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     219,
                     219,
                     141
@@ -859,7 +859,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     23,
                     190,
                     207
@@ -881,7 +881,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     158,
                     218,
                     229
@@ -903,7 +903,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     31,
                     119,
                     180
@@ -925,7 +925,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     174,
                     199,
                     232
@@ -947,7 +947,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     127,
                     14
@@ -969,7 +969,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     187,
                     120
@@ -991,7 +991,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     44,
                     160,
                     44
@@ -1013,7 +1013,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     152,
                     223,
                     138
@@ -1035,7 +1035,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     214,
                     39,
                     40
@@ -1057,7 +1057,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     255,
                     152,
                     150
@@ -1079,7 +1079,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     148,
                     103,
                     189
@@ -1101,7 +1101,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     197,
                     176,
                     213
@@ -1123,7 +1123,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     140,
                     86,
                     75
@@ -1145,7 +1145,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     196,
                     156,
                     148
@@ -1167,7 +1167,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     227,
                     119,
                     194
@@ -1189,7 +1189,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     247,
                     182,
                     210
@@ -1211,7 +1211,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     127,
                     127,
                     127
@@ -1233,7 +1233,7 @@
                     "CodingSchemeDesignator": "SCT",
                     "CodeMeaning": "Organ"
                 },
-                "recommendedDisplayRGBValue": [
+                "RecommendedDisplayCIELabValue": [
                     199,
                     199,
                     199

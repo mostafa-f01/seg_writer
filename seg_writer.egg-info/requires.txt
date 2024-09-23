@@ -1,0 +1,12 @@
+highdicom
+numpy
+pillow
+pillow-jpls
+pydicom
+SimpleITK
+pylibjpeg
+palettable
+pylibjpeg-libjpeg
+pylibjpeg-openjpeg
+imagecodecs
+scikit-image
