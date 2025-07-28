@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seg_writer"
+version = "1.0.0"
+description= "Package to create multiframe DICOM SEG files from NIfTI files or numpy arrays"
+requires-python = ">=3.9"
+dependencies  = [
+    'highdicom',
+    'numpy',
+    'pillow',
+    'pillow-jpls',
+    'pydicom',
+    'SimpleITK',
+    'pylibjpeg',
+    'palettable',
+    'pylibjpeg-libjpeg',
+    'pylibjpeg-openjpeg',
+    'imagecodecs',
+    'scikit-image'
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+seg_writer = ["**/*"]

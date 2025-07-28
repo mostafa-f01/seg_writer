@@ -1,4 +1,5 @@
 MANIFEST.in
+pyproject.toml
 setup.py
 seg_writer/Writer.py
 seg_writer/__init__.py
@@ -8,7 +9,10 @@ seg_writer.egg-info/SOURCES.txt
 seg_writer.egg-info/dependency_links.txt
 seg_writer.egg-info/requires.txt
 seg_writer.egg-info/top_level.txt
+seg_writer/examples/__init__.py
 seg_writer/examples/json example/Example.json
+seg_writer/examples/json example/__init__.py
+seg_writer/examples/total segmentator metadata/__init__.py
 seg_writer/examples/total segmentator metadata/ct_meta.json
 seg_writer/examples/total segmentator metadata/mri_meta.json
 seg_writer/tools/__init__.py

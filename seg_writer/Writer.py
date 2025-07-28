@@ -88,29 +88,38 @@ class Writer:
         return result
 
 
-    def from_nifti(self,nifti_file_path, dicom_series_path, metadata_file_path, output_path):
+    def create_dicom_seg(self,segmentation, dicom_series_path, metadata_file_path, output_path):
 
         # Check overlap
-        check_for_overlap(segmentation=nifti_file_path)
+        check_for_overlap(segmentation=segmentation)
         
-        # Load the NIfTI file to get the pixel data
-        pixel_array = self._load_nifti_file(nifti_file_path)
-
         # Iterate on segmentation to check is lables present and if no lables presents return error and if found one return list of uniqe lables
-        get_nifti_labels(nifti_file_path)
+        get_nifti_labels(segmentation)
+        
+        # Check segmentation type first
+        if isinstance(segmentation, str):
+            # Load the NIfTI file to get the pixel data
+            pixel_array = self._load_nifti_file(segmentation)
 
+            # Match the shape of segmentation and source dicom files
+            pixel_array = reorient_pixel_array(segmentation,dicom_series_path)
+
+        elif isinstance(segmentation, np.ndarray):
+            pixel_array = match_shape_segmentation_and_dicom(pixel_array,dicom_series_path,dicom_datasets)
+
+        else:
+            raise ValueError("Unsupported segmentation type.")
+
+        
         # Normalize the source DICOM images
         dicom_datasets = self._normalize_source_images(dicom_series_path)
-        
-        # Match the shape of segmentation and source dicom files
-        pixel_array = reorient_pixel_array(nifti_file_path,dicom_series_path)
 
         # Read the metadata and filter the segment descriptions
-        #metadata = self.read_metadata(metadata_file_path)
         segment_descriptions = self.filter_segment_descriptions(metadata_file_path)
-        
-        # Normalize the source DICOM images
-        dicom_datasets = self._normalize_source_images(dicom_series_path)
+
+        # Test Unit
+        print(np.unique(pixel_array))
+        print(pixel_array.shape)
 
         # Create the DICOM SEG file
         seg_instance_uid = hd.UID()
@@ -119,8 +128,8 @@ class Writer:
             pixel_array=pixel_array,
             segmentation_type=hd.seg.SegmentationTypeValues.BINARY,
             segment_descriptions=segment_descriptions,
-            series_instance_uid=dicom_datasets[0].SeriesInstanceUID,
-            series_number=dicom_datasets[0].SeriesNumber,
+            series_instance_uid='1.2.840.113619.2.55.3.604688832.170.1523046880.467',
+            series_number=6000,
             sop_instance_uid=seg_instance_uid,
             instance_number=1,
             manufacturer="",
@@ -132,16 +141,19 @@ class Writer:
 
         # Save the DICOM SEG file
         os.makedirs(output_path, exist_ok=True)
-        output_file_path = os.path.join(output_path, f"SR{dicom_datasets[0].SeriesNumber}"+"_segmentation_temp.dcm")
+        output_file_path = os.path.join(output_path, f"SR6000"+"_segmentation_temp.dcm")
 
         metadata = self.read_metadata(metadata_file_path)
         segment_attributes = [item for sublist in metadata['segmentAttributes'] for item in sublist]
         seg = add_color(segment_attributes,seg)
-
+        ref_series = pydicom.Dataset()
+        ref_series.SeriesInstanceUID = [dicom_datasets[0].SeriesInstanceUID]
+        referenced_series_sequence = pydicom.Sequence([ref_series])
+        seg.ReferencedSeriesSequence = referenced_series_sequence
         seg.save_as(str(output_file_path))
 
         # Call deflated method for compression
-        compressed_file = os.path.join(output_path, f"SR{dicom_datasets[0].SeriesNumber}"+"_segmentation.dcm")
+        compressed_file = os.path.join(output_path, f"SR6000"+"_segmentation.dcm")
         compress_dicom(output_file_path,compressed_file)
         os.remove(output_file_path)
 
@@ -157,64 +169,4 @@ class Writer:
         metadata = self.read_metadata(metadata_file_path)
         segment_attributes = [item for sublist in metadata['segmentAttributes'] for item in sublist]
 
-        return compressed_file
-
-    def from_array(self, pixel_array, dicom_series_path, metadata_file_path, output_path):
-        
-        # Check overlap
-        check_for_overlap(segmentation=pixel_array)
-
-        # Iterate on segmentation to check is lables present and if no lables presents return error and if found one return list of uniqe lables
-        get_nifti_labels(pixel_array)
-
-        # Normalize the source DICOM images
-        dicom_datasets = self._normalize_source_images(dicom_series_path)
-
-        # Match the shape of segmentation and source dicom files
-        pixel_array = match_shape_segmentation_and_dicom(pixel_array,dicom_series_path,dicom_datasets)
-
-        # Make segmentation descriptions
-        segment_descriptions = self.filter_segment_descriptions(metadata_file_path)
-
-        # Create the DICOM SEG file
-        seg_instance_uid = hd.UID()
-        seg = hd.seg.Segmentation(
-            source_images=dicom_datasets,
-            pixel_array=pixel_array,
-            segmentation_type=hd.seg.SegmentationTypeValues.BINARY,
-            segment_descriptions=segment_descriptions,
-            series_instance_uid=dicom_datasets[0].SeriesInstanceUID,
-            series_number=dicom_datasets[0].SeriesNumber,
-            sop_instance_uid=seg_instance_uid,
-            instance_number=1,
-            manufacturer="",
-            manufacturer_model_name="",
-            software_versions="",
-            device_serial_number="",
-            omit_empty_frames=True,
-        )
-
-        # Save the DICOM SEG file
-        os.makedirs(output_path, exist_ok=True)
-        output_file_path = os.path.join(output_path, f"SR{dicom_datasets[0].SeriesNumber}"+"_segmentation_temp.dcm")
-
-        metadata = self.read_metadata(metadata_file_path)
-        segment_attributes = [item for sublist in metadata['segmentAttributes'] for item in sublist]
-        seg = add_color(segment_attributes,seg)
-        
-        seg.save_as(str(output_file_path))
-
-        # Call deflated method for compression
-        compressed_file = os.path.join(output_path, f"SR{dicom_datasets[0].SeriesNumber}"+"_segmentation.dcm")
-        compress_dicom(output_file_path,compressed_file)
-        os.remove(output_file_path)
-
-        # Read the generated file for final confirmation
-        reading_back(compressed_file)
-
-        # Explicitly manage memory
-        del pixel_array
-        del dicom_datasets
-        del segment_descriptions
-        gc.collect()
         return compressed_file

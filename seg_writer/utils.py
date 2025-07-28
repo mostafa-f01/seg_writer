@@ -49,6 +49,7 @@ def match_shape_segmentation_and_dicom(segmentation,dicom_series_path,dicom_data
             if segmentation.shape[1] != dicom_rows or segmentation.shape[2] != dicom_columns:
                 raise ValueError(f"The shape of nifti file with {segmentation.shape} is incompatible with shape of source dicom series with {(dicom_shape,dicom_datasets[0].Rows,dicom_datasets[0].Columns)}")
     return segmentation
+
 # Check if labels present in input segmentation or not return labels if exists and return error if no labels found
 def get_nifti_labels(segmentation):
     """Check if labels are present in the input segmentation and return labels if they exist."""
@@ -113,7 +114,7 @@ def add_color(metadata,dicom_dataset):
                 
     return dicom_dataset
 
-
+# Reorient segmentation array after changing axis
 def reorient_pixel_array(nifti_file_path, refrenced_ds_path):
     # Read the DICOM series
     dicom_reader = sitk.ImageSeriesReader()
@@ -165,5 +166,16 @@ def reorient_pixel_array(nifti_file_path, refrenced_ds_path):
 
     # Rotate the segment array as needed
     segment_array = np.rot90(segment_array, k=1, axes=(1, 2))
+    segment_array = np.flip(segment_array, axis=0)
+    
+    # Flip axis=2 only if needed (left-right)
+    nifti_x_dir = affine_matrix[:3, 0]
+    dicom_x_dir = np.array(dicom_sitk_image.GetDirection()).reshape(3, 3)[:, 0]
+    
+    nifti_x_dir /= np.linalg.norm(nifti_x_dir)
+    dicom_x_dir /= np.linalg.norm(dicom_x_dir)
+    
+    if not np.allclose(nifti_x_dir, -dicom_x_dir, atol=0.01):
+        segment_array = np.flip(segment_array, axis=2)
 
-    return segment_array
+    return segment_array.astype(np.uint8)

@@ -4,14 +4,14 @@ This package is implemented to create multiframe DICOM SEG (segmentation) files 
 
 # Class: `Writer`
 
-The `Writer` class provides methods for generating DICOM SEG files from different input formats. It includes the following main methods:
+The `Writer` class provides methods for generating DICOM SEG files from different input formats. It includes the following main method:
 
-## Method: `from_nifti`
+## Method: `create_dicom_seg`
 
-Creates a DICOM SEG file from a NIfTI file.
+Creates a DICOM SEG file from a NIfTI file or numpy array.
 
 **Parameters:**
-- `nifti_file_path` (str): Path to the NIfTI file with .nii or .nii.gz suffix containing the segmentation data.
+- `Segmentation` (str or np.ndarray): Path to the NIfTI file with .nii or .nii.gz suffix containing the segmentation data or numpy array containing the segmentation data.
 - `dicom_series_path` (str): Path to the directory containing the source DICOM series.
 - `metadata_file_path` (str): Path to the JSON file containing the segmentation metadata.
 - `output_path` (str): Path to the directory where the output DICOM SEG file will be saved.
@@ -21,30 +21,8 @@ Creates a DICOM SEG file from a NIfTI file.
 from seg_writer.Writer import Writer
 
 writer = Writer()
-writer.from_nifti(
-    nifti_file_path="path/to/nifti/file.nii",
-    dicom_series_path="path/to/dicom/series/",
-    metadata_file_path="path/to/metadata/file.json",
-    output_path="path/to/output/directory/"
-)
-```
-## Method: `from_array`
-
-Creates a DICOM SEG file from a numpy array.
-
-**Parameters:**
-- `pixel_array` (np.ndarray): Numpy array containing the segmentation data.
-- `dicom_series_path` (str): Path to the directory containing the source DICOM series.
-- `metadata_file_path` (str): Path to the JSON file containing the segmentation metadata.
-- `output_path` (str): Path to the directory where the output DICOM SEG file will be saved.
-
-**Usage Example:**
-```
-from seg_writer.Writer import Writer
-
-writer = Writer()
-writer.from_array(
-    pixel_array=numpy_array,
+writer.create_dicom_seg(
+    Segmentation="path/to/nifti/file.nii" or Segmentation=pixel_array,
     dicom_series_path="path/to/dicom/series/",
     metadata_file_path="path/to/metadata/file.json",
     output_path="path/to/output/directory/"

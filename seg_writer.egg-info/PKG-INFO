@@ -1,7 +1,8 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: seg_writer
-Version: 0.1.5
+Version: 1.0.0
 Summary: Package to create multiframe DICOM SEG files from NIfTI files or numpy arrays
+Requires-Python: >=3.9
 Requires-Dist: highdicom
 Requires-Dist: numpy
 Requires-Dist: pillow
